@@ -34,9 +34,9 @@ Installing Node.js on different platforms:
 
 1. Download the Linux installer from the [Node.js website](https://nodejs.org/en/download/).
 2. Open a terminal and navigate to the directory where you downloaded the file.
-3. Unpack the file using the tar command: `tar -xvf node-v18.14.2-linux-x64.tar.xz` (where `node-v18.14.2-linux-x64.tar.xz` is the name of the file you downloaded).
-4. Copy the extracted folder to the `/usr/local` directory: `sudo cp -r node-v18.14.2-linux-x64 /usr/local/`.
-5. Add the `bin` directory of the newly created folder to the `PATH` environment variable: `export PATH=/usr/local/node-v18.14.2-linux-x64/bin:$PATH`.
+3. Unpack the file using the tar command: `tar -xvf node-v16.18.0-linux-x64.tar.xz` (where `node-v16.18.0-linux-x64.tar.xz` is the name of the file you downloaded).
+4. Copy the extracted folder to the `/usr/local` directory: `sudo cp -r node-v16.18.0-linux-x64 /usr/local/`.
+5. Add the `bin` directory of the newly created folder to the `PATH` environment variable: `export PATH=/usr/local/node-v16.18.0-linux-x64/bin:$PATH`.
 6. Open a new terminal and verify that Node.js was installed correctly by running the following commands: `node -v` & `npm -v`.
     > You should see something like this, but with a different version number: ![Verify](./images/mac/2.png)
 7. You're done! You can now use `node` and `npm` from the command line.
