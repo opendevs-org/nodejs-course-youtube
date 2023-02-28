@@ -16,3 +16,6 @@ yarn-error.log*
 # Obsidian files
 .obsidian
 *.obsidian
+
+# Excalidraw files
+*.excalidraw.*
