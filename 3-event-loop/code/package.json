@@ -1,0 +1,16 @@
+{
+  "name": "event-loop-codebase",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opendevs-org/nodejs-course-youtube.git"
+  },
+  "author": "Mihir Kumar <mikr13>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opendevs-org/nodejs-course-youtube/issues"
+  },
+  "homepage": "https://github.com/opendevs-org/nodejs-course-youtube#readme"
+}
