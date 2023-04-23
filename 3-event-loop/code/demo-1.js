@@ -2,8 +2,8 @@ import { hrtime } from 'node:process';
 
 console.log('Start')
 
-const start = Date.now() // 28734736374
-const startInNanoSeconds = hrtime.bigint() // 28734736374000000000n
+const start = Date.now()
+const startInNanoSeconds = hrtime.bigint()
 
 setTimeout(() => {
     const difference = Date.now() - start
