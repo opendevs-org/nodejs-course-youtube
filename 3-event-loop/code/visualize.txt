@@ -1,0 +1,16 @@
+// Output
+
+
+// Stages Queues/Heap
+Timer = []
+
+I / O =[]
+
+setImmediate = []
+
+closeCallback = []
+
+// Macrotask Queues
+process.nextTick = []
+
+promise = []
